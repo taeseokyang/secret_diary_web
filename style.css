@@ -1,0 +1,22 @@
+/* 기본 */
+a{
+    text-decoration: none;
+    color: #000000;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffef93;
+}
+
+/* 레이아웃 */
+.body{
+
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+}
+.top{
+    
+}
