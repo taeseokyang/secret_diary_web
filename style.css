@@ -1,4 +1,8 @@
 /* 기본 */
+*{
+    margin: 0;
+    padding: 0;
+}
 a{
     text-decoration: none;
     color: #000000;
@@ -23,7 +27,7 @@ body{
 }
 .middle{
     width: 1000px;
-    height: 2500px;
+    height: 3000px;
 }
 .bottom{
     width: 1000px;
@@ -50,6 +54,9 @@ body{
     line-height: 150px;
     font-size: 60px;
     color: #4e6d34;
+    font-weight: bold;
+
+    text-shadow:-15px 20px 0 #ececec;
 }
 .end{
     width: 200px;
@@ -65,11 +72,13 @@ body{
     margin-top: 45px;
     margin-right: 15px;
     border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* border : 4px solid #96b979; */
 
     /* text */
     text-align: center;
     line-height: 60px;
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff;
 }
 
@@ -82,20 +91,26 @@ body{
     width: 900px;
     height: 150px;
     margin-top: 30px;
+    margin-left: 30px;
     background-color: #a3c786b0;
     border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    list-style: none;
+    padding: 20px;
 
-    /* text */
-    /* text-align: center; */
-    padding-left: 20px;
-    padding-top: 20px;
+}
+.month_text{
+    text-align: center;
+    display: block;
+    height: 55px;
+    width: 200px;
     font-size: 40px;
     color: #ffffff;
+    border-bottom: 4px solid #a3c786b0;
 }
 .month:hover{
     background-color: #a3c786f1;
 }
-
 
 /* login */
 form {
