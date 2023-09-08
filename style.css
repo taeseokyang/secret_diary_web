@@ -3,26 +3,25 @@
     margin: 0;
     padding: 0;
 }
+
 a{
     text-decoration: none;
-    color: #000000;
 }
 body{
     width: 1000px;
     margin: 0 auto;
-    padding: 0;
     background-color: #ffffff;
 }
 
 /* 레이아웃 */
 .body{
     width: 1000px;
+    height: 3250px;
     background-color: #ffffff;
 }
 .top{
     width: 1000px;
     height: 150px;
-
     border-bottom: 5px solid #a3c786bb;
 }
 .middle{
@@ -56,13 +55,12 @@ body{
     color: #4e6d34;
     font-weight: bold;
 
-    text-shadow:-15px 20px 0 #ececec;
+    text-shadow:-15px 20px 2px #ececec;
 }
 .end{
     width: 200px;
     height: 150px;
     float: left;
-
 }
 .end_btn{
     width: 150px;
@@ -85,7 +83,6 @@ body{
 /* middle */
 .month_box{
     width: 1000px;
-    height: 1000px;
 }
 .month{
     width: 900px;
